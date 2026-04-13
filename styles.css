@@ -168,3 +168,22 @@ footer a:hover {
     text-decoration: underline;
 }
 
+
+.contenedor {
+  display: flex;
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .texto-grande {
+    font-size: 16px; 
+  }
+}
